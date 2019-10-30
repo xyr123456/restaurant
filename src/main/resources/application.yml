@@ -16,8 +16,14 @@ spring:
     url: jdbc:mysql://120.78.13.197:3306/restaurant
     username: root
     password: Huangjiamin123
-    max-wait: 10000
+    max-wait: 20000
     driver-class-name: com.mysql.jdbc.Driver
-
+  jpa:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: create
+        format_sql: true
+    show-sql: true
 
 
