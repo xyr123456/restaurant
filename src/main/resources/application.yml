@@ -1,0 +1,23 @@
+#热部署生效
+spring:
+  devtools:
+    restart:
+      enabled: true
+  ############################################################
+
+  #
+
+  # mysql
+
+  #
+
+  ############################################################
+  datasource:
+    url: jdbc:mysql://120.78.13.197:3306/restaurant
+    username: root
+    password: Huangjiamin123
+    max-wait: 10000
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+
